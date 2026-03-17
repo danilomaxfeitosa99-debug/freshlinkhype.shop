@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BioHack.hu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;color:#c0c8d4;background:#0a0a0f;line-height:1.85;font-size:16px;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+
+.top-strip{background:linear-gradient(90deg,#0a0a0f,#141428,#0a0a0f);text-align:center;padding:7px;font-size:10px;color:#4ae0d2;letter-spacing:3px;text-transform:uppercase;font-weight:400;border-bottom:1px solid #1a1a2e}
+
+header{background:#0a0a0f;text-align:center;padding:20px 20px 0;border-bottom:1px solid #1a1a2e}
+.logo{font-family:'Space Mono',monospace;font-size:28px;color:#4ae0d2;text-decoration:none;display:block;font-weight:700}
+.logo span{color:#555}
+.tagline{font-size:10px;color:#555;letter-spacing:4px;text-transform:uppercase;font-weight:400;margin-top:2px;margin-bottom:12px;font-family:'Space Mono',monospace}
+.nav-bar{display:flex;justify-content:center;gap:20px;padding:10px 0;font-size:10px;color:#4a4a6a;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;font-family:'Space Mono',monospace}
+
+.wrap{max-width:580px;margin:0 auto;padding:28px 20px 60px}
+
+.cat{display:inline-flex;align-items:center;gap:6px;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#4ae0d2;margin-bottom:14px;font-family:'Space Mono',monospace}
+.cat::before{content:'//';color:#333}
+
+h1{font-family:'Space Mono',monospace;font-size:24px;line-height:1.35;color:#e8eaf0;margin-bottom:10px;font-weight:700}
+.lead{font-size:15px;color:#6a7a8a;font-style:normal;margin-bottom:8px;line-height:1.6;font-weight:300}
+.meta{font-size:10px;color:#3a3a5a;margin-bottom:20px;font-family:'Space Mono',monospace;letter-spacing:1px}
+
+.hero{overflow:hidden;border-radius:2px;margin-bottom:5px;border:1px solid #1a1a2e}
+.hero img,.fig img{cursor:pointer;transition:opacity .3s}
+.hero img:hover,.fig img:hover{opacity:.85}
+.cap{font-size:10px;color:#3a3a5a;margin-bottom:20px;font-family:'Space Mono',monospace}
+
+.cta{text-align:center;margin:22px 0;padding:22px 16px;background:#0f0f1a;border:1px solid #4ae0d2;border-radius:2px}
+.cta h3{font-family:'Space Mono',monospace;font-size:16px;color:#e8eaf0;margin-bottom:5px;font-weight:700}
+.cta p{color:#6a7a8a;font-size:13px;margin-bottom:10px;font-weight:300}
+.btn{display:inline-block;background:#4ae0d2;color:#0a0a0f;padding:11px 34px;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;text-decoration:none;border-radius:2px;transition:all .25s;font-family:'Space Mono',monospace}
+.btn:hover{background:#3cc8bb;box-shadow:0 0 20px rgba(74,224,210,.3);transform:translateY(-1px)}
+.cta-n{font-size:9px;color:#3a3a5a;margin-top:7px;font-family:'Space Mono',monospace}
+
+.body p{margin-bottom:15px;font-weight:300}
+.body strong{color:#e8eaf0;font-weight:500}
+
+.fig{margin:20px 0;border-radius:2px;overflow:hidden;border:1px solid #1a1a2e}
+
+.pull{margin:20px 0;padding:16px 20px;border-left:2px solid #4ae0d2;background:#0f0f1a}
+.pull p{font-size:15px;color:#a0a8b4;font-style:italic;line-height:1.55;margin:0;font-weight:300}
+.pull cite{display:block;font-size:10px;color:#4a4a6a;font-style:normal;margin-top:5px;font-family:'Space Mono',monospace}
+
+.disc{font-size:11px;color:#3a3a5a;margin-top:24px;padding-top:14px;border-top:1px solid #1a1a2e;line-height:1.55}
+
+footer{background:#050508;padding:22px 0;text-align:center;font-size:10px;color:#2a2a4a;font-family:'Space Mono',monospace;border-top:1px solid #1a1a2e}
+footer a{color:#4ae0d2;text-decoration:none}
+footer a:hover{text-decoration:underline}
+
+@media(max-width:600px){h1{font-size:20px}.logo{font-size:24px}.wrap{padding:20px 16px 50px}.nav-bar{gap:10px;flex-wrap:wrap}}
+</style>
+</head>
+<body>
+
+<div class="top-strip">BioHack &bull; Tudomány &bull; Optimalizálás &bull; Teljesítmény</div>
+
+<header>
+<a href="#" class="logo">BioHack<span>.hu</span></a>
+<p class="tagline">Optimalizáld az életed</p>
+<nav class="nav-bar"><span>Tudomány</span><span>Táplálkozás</span><span>Teljesítmény</span><span>Eszközök</span></nav>
+</header>
+
+<div class="wrap">
+
+<span class="cat">Új Kutatás</span>
+
+<h1>Egy Banán, Amit Másképp Használnak — A Biohackerek Új Kedvence Magyarországon</h1>
+<p class="lead">A legújabb táplálkozástudományi kutatások egy régi gyümölcsöt helyeznek új megvilágításba.</p>
+<p class="meta"><span id="art-date"></span> // BioHack Szerkesztőség // 2 perc</p>
+
+<figure class="hero">
+<a href="https://lp.freshlinkhype.shop/preclick"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663297503148/jCMGTU5NUP78zZrraNsLhW/presell16-banana-tech-minimal-K3hdgeFdxPFSeExmdthR6N.webp" alt="Banán az asztalon"></a>
+</figure>
+<p class="cap">// img: biohack szerkesztőség</p>
+
+<!-- CTA 1 — IMEDIATO -->
+<div class="cta">
+<h3>Nézd meg a videót a módszerről</h3>
+<p>Szakértők mutatják be a tudományos hátteret</p>
+<a href="https://lp.freshlinkhype.shop/preclick" class="btn">Megnézem &rarr;</a>
+<p class="cta-n">// ingyenes tájékoztató videó</p>
+</div>
+
+<div class="body">
+
+<p>A biohacking közösségben egyre többen figyelnek fel egy <strong>egyszerű reggeli szokásra</strong>, amely egy közönséges banánhoz kötődik. De nem a szokásos módon — a módszer a banán <strong>rezisztens keményítő</strong> tartalmát helyezi a középpontba.</p>
+
+<p>A rezisztens keményítő egy speciális prebiotikus rost, amelyet a bélflóra közvetlenül hasznosít. A legújabb kutatások szerint szerepet játszhat az anyagcsere természetes egyensúlyának támogatásában.</p>
+
+<figure class="fig">
+<a href="https://lp.freshlinkhype.shop/preclick"><img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663297503148/jCMGTU5NUP78zZrraNsLhW/presell16-woman-laptop-smoothie-FjjBALZXnmf5BREA5cNPfz.webp" alt="Nő laptoppal és smoothie-val"></a>
+</figure>
+
+<div class="pull">
+<p>„A legjobb biohack az, amelyik egyszerű, fenntartható, és a tudomány is alátámasztja."</p>
+<cite>// Táplálkozástudományi Szakértő</cite>
+</div>
+
+<p>A módszer részleteit egy <strong>rövid videóban</strong> foglalták össze, amelyben lépésről lépésre bemutatják az alkalmazás módját.</p>
+
+<!-- CTA 2 -->
+<div class="cta">
+<h3>Ismerd meg a teljes módszert</h3>
+<p>Lépésről lépésre, tudományos alapon</p>
+<a href="https://lp.freshlinkhype.shop/preclick" class="btn">Megnézem &rarr;</a>
+<p class="cta-n">// tájékoztató tartalom</p>
+</div>
+
+<p class="disc"><em><strong>Fontos:</strong> Ez a cikk kizárólag tájékoztató jellegű, és nem minősül orvosi tanácsadásnak. Az étrend-kiegészítők nem helyettesítik a változatos étrendet és az egészséges életmódot. Az egyéni eredmények változhatnak. Bármilyen étrendi változtatás előtt konzultáljon orvosával.</em></p>
+
+</div>
+</div>
+
+<footer>
+<p><a href="privacy.html">Adatvédelmi Szabályzat</a> &nbsp;&middot;&nbsp; <a href="terms.html">Felhasználási Feltételek</a></p>
+<p style="margin-top:6px">&copy; 2026 BioHack.hu &middot; CNPJ: 64.975.185/0001-32</p>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded',function(){var d=new Date(),m=['január','február','március','április','május','június','július','augusztus','szeptember','október','november','december'];document.getElementById('art-date').textContent=d.getFullYear()+'. '+m[d.getMonth()]+' '+d.getDate()+'.';});
+(function(){var q=window.location.search;if(!q)return;document.querySelectorAll('a[href]').forEach(function(a){var h=a.getAttribute('href');if(!h||h.startsWith('#')||h.startsWith('mailto:'))return;a.setAttribute('href',h.includes('?')?h+'&'+q.substring(1):h+q)})})();
+</script>
+<script type="text/javascript" src="https://lp.freshlinkhype.shop/pretrack.js?rtkcmpid=69b61d25260bc19295e2e0c6"></script>
+</body>
+</html>
